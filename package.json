@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Complete livestream backend with RTMP ingestion and recording",
   "main": "dist/server.js",
-  "type": "commonjs",
+  "type": "module",
   "scripts": {
     "dev": "nodemon server.ts",
     "build": "tsc",
